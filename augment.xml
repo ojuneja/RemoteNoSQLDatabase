@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<noSqlDb>
+  <keyType>Int32</keyType>
+  <payloadType>ListOfStrings</payloadType>
+  <elements>
+    <key id="1">
+      <value>
+        <name>1st</name>
+        <time>11/17/2015 8:20:09 PM</time>
+        <desc>description</desc>
+        <payload>
+          <item>CA</item>
+          <item>SMA</item>
+          <item>AI</item>
+        </payload>
+        <children>
+          <item>100</item>
+        </children>
+      </value>
+    </key>
+    <key id="2">
+      <value>
+        <name>2nd</name>
+        <time>6/16/1990 12:00:00 AM</time>
+        <desc>description</desc>
+        <payload>
+          <item>BigData</item>
+          <item>NLP</item>
+          <item>CC</item>
+          <item>TextMining</item>
+        </payload>
+        <children>
+          <item>200</item>
+          <item>300</item>
+        </children>
+      </value>
+    </key>
+    <key id="4">
+      <value>
+        <name>4th</name>
+        <time>6/15/1990 12:00:00 AM</time>
+        <desc>noDescrition</desc>
+        <payload>
+          <item>ADS</item>
+          <item>SE</item>
+          <item>DP</item>
+        </payload>
+        <children>
+          <item>400</item>
+          <item>500</item>
+          <item>600</item>
+          <item>700</item>
+          <item>800</item>
+          <item>900</item>
+        </children>
+      </value>
+    </key>
+  </elements>
+</noSqlDb>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<queries>
+    <message type="largeAdd">
+        <size>50</size>
+		<last></last>
+        <messageContent>
+            <keyType>string</keyType>
+            <valueType>ListOfString</valueType>
+            <key></key>
+            <value>
+                <name></name>
+                <time></time>
+                <desc></desc>
+                <payload>
+                    <item></item>
+                </payload>
+                <children>
+                    <item></item>
+                </children>
+            </value>
+        </messageContent>
+    </message>
+    <message type="delete">
+        <size>20</size>
+        <messageContent>
+            <keyType>string</keyType>
+            <valueType>ListOfString</valueType>
+            <key></key>
+			<numKeys></numKeys>
+        </messageContent>
+    </message>
+    <message type="edit">
+        <size>20</size>
+        <messageContent>
+            <keyType>string</keyType>
+            <valueType>ListOfString</valueType>
+            <key></key>
+            <value>
+                <name></name>
+                <desc></desc>
+                <payload>
+                    <item></item>
+                </payload>
+            </value>
+        </messageContent>
+    </message>
+	<message type="persist">
+	      <size>30</size>
+	</message>
+	<message type="augment">
+	     <size>3</size>
+	</message>
+</queries>

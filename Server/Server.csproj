@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5556846A-5E82-4165-8606-3B18D7FB70B7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Server</RootNamespace>
+    <AssemblyName>Server</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Server.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBElement\DBElement.csproj">
+      <Project>{1d9fdb3e-8c03-493f-8d76-0443b298e854}</Project>
+      <Name>DBElement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBEngine\DBEngine.csproj">
+      <Project>{9f039b4c-22c7-488b-9e2f-b7224cc46a2d}</Project>
+      <Name>DBEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBExtensions\DBExtensions.csproj">
+      <Project>{a6ecc225-6634-474e-97f6-54fb2f758c99}</Project>
+      <Name>DBExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Display\Display.csproj">
+      <Project>{84fec583-d643-4465-ada0-c34c9bf8c624}</Project>
+      <Name>Display</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HiResTimer\TestTimer.csproj">
+      <Project>{0b20335d-d367-437f-9f49-5ad477d0ef57}</Project>
+      <Name>TestTimer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ICommService\ICommService.csproj">
+      <Project>{e70db46a-48eb-4cc2-a8ca-fb5f5ee5e868}</Project>
+      <Name>ICommService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersistEngine\PersistEngine.csproj">
+      <Project>{be369188-59eb-4360-982f-7a45ba3058f5}</Project>
+      <Name>PersistEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QueryProcessing\QueryProcessing.csproj">
+      <Project>{ac6edd7d-5eea-4dcb-a7c8-1885c596762d}</Project>
+      <Name>QueryProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Receiver\Receiver.csproj">
+      <Project>{df19b5c4-6901-40db-b8e2-66ab614c92d6}</Project>
+      <Name>Receiver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sender\Sender.csproj">
+      <Project>{157b8945-cf60-4622-8000-0a8111e6db84}</Project>
+      <Name>Sender</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{75c29a38-49bb-41a1-8a23-f42cb8116546}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilityExtensions\UtilityExtensions.csproj">
+      <Project>{7092ac78-846b-424b-9cc3-94e2cb2d3c25}</Project>
+      <Name>UtilityExtensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

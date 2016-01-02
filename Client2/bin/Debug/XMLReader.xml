@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<queries>
+    <message type="Query1">
+        <size>5</size>
+        <messageContent>
+            <keyType>string</keyType>
+            <valueType>ListOfString</valueType>
+            <key></key>
+        </messageContent>
+    </message>
+    <message type="Query2">
+        <size>3</size>
+        <messageContent>
+            <keyType>string</keyType>
+            <valueType>ListOfString</valueType>
+            <key></key>
+        </messageContent>
+    </message>
+	<message type="Query3">
+        <size>5</size>
+        <messageContent>
+            <keyType>string</keyType>
+            <valueType>ListOfString</valueType>
+            <pattern></pattern>
+        </messageContent>
+    </message>
+	<message type="Query4">
+        <size>1</size>
+        <messageContent>
+            <keyType>string</keyType>
+            <valueType>ListOfString</valueType>
+            <searchParaMeter></searchParaMeter>
+        </messageContent>
+	</message>
+	<message type="Query5">
+        <size>1</size>
+        <messageContent>
+            <keyType>string</keyType>
+            <valueType>ListOfString</valueType>
+            <startTime></startTime>
+			<endTime></endTime>
+        </messageContent>
+	</message>
+</queries>
