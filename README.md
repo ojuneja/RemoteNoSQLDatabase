@@ -2,15 +2,15 @@
 • Designed and Developed a No SQL database that can persist, query, add, delete and edit data using key value pairs. 
 • Developed a facility in C# for WPF application where multiple clients uses WCF to remotely send and query data from No SQL database residing on server.
 
-####Requirements can be found [HERE](https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Requirements.pdf)
+#####Requirements can be found [HERE](https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Requirements.pdf)
 
 
-####Screenshots
+#####Screenshots
 <img src=https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Screenshot1.png width="700" height="500"/>
 <img src=https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Screen2.png width="700" height="500"/>
 <img src=https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Screen3.png width="700" height="500"/>
 
-####IMPORTANT NOTE REGARDING XML
+#####IMPORTANT NOTE REGARDING XML
 
 1. Server will augment XML from augment.xml which is present in current directory
 2. Server will persist XML to persist.xml which is present in current 
@@ -18,7 +18,7 @@
 4. Write Client will read XMLTemplate from XMLWriter.xml which is present in current directory
 
 
-####COMMAND LINE ARGUMENTS
+#####COMMAND LINE ARGUMENTS
 Format is: <Path> n1 n2 Y
 where n1 is number of read clients
 n2 is number of write clients
