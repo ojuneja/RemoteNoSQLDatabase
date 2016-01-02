@@ -19,10 +19,10 @@
 
 
 #####COMMAND LINE ARGUMENTS
-Format is: <Path> n1 n2 Y
+1. Format is: <Path> n1 n2 Y
 where n1 is number of read clients
-n2 is number of write clients
-Y is logging on, So, N would be logging off
+and n2 is number of write clients
+2. Y is logging on, So, N would be logging off
 <Path> is the path of executable code
 
 
