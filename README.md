@@ -6,9 +6,9 @@
 
 
 ####Screenshots
-<img src=https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Screenshot1.png width="500"/>
-<img src=https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Screen2.png width="500"/>
-<img src=https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Screen3.png width="500"/>
+<img src=https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Screenshot1.png width="700" height="500"/>
+<img src=https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Screen2.png width="700" height="500"/>
+<img src=https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Screen3.png width="700" height="500"/>
 
 ####IMPORTANT NOTE REGARDING XML
 
