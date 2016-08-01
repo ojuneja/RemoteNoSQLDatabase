@@ -1,6 +1,6 @@
 # RemoteNoSQLDatabase
-• Designed and Developed a No SQL database that can persist, query, add, delete and edit data using key value pairs. 
-• Developed a facility in C# for WPF application where multiple clients uses WCF to remotely send and query data from No SQL database residing on server.
+• Designed and Developed a No SQL database that can persist, query, add, delete and edit data using key value pairs.     
+• Developed a facility in C# for WPF application where multiple clients uses WCF to remotely send and query data from No SQL database residing on server.    
 
 #####Requirements can be found [HERE](https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Requirements.pdf)
 
