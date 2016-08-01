@@ -1,7 +1,6 @@
 ﻿/////////////////////////////////////////////////////////////////////////
 // MessageMaker.cs - Construct ICommService Messages                   //
 // ver 2.0                                                             //
-// Source Jim Fawcett, CSE681 - Software Modeling and Analysis, Project #4 
 // Author:   Ojas Juneja, Syracuse University 
 /////////////////////////////////////////////////////////////////////////
 /*

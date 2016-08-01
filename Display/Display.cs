@@ -4,7 +4,6 @@
 // Application: Demonstration for CSE681-SMA, Project#2      //
 // Language:    C#, ver 6.0, Visual Studio 2015              //
 // Platform:    Dell Inspiron 14z, Core-i5, Windows 10       //
-// Source :     Jim Fawcett, CST 4-187, Syracuse University  //
 // Author:      Ojas Juneja, MSCE Grad Student             //
 //              Syracuse University,ojuneja@syr.edu             //
 ///////////////////////////////////////////////////////////////

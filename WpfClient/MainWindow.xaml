@@ -2,7 +2,7 @@
 /////////////////////////////////////////////////////////////////////////
 // MainWindow.xaml - CommService GUI Client                            //
 // ver 1.0                                                             //
-// Jim Fawcett, CSE681 - Software Modeling and Analysis, Project #4    //
+// Ojas Juneja, Syracuse University     //
 /////////////////////////////////////////////////////////////////////////
 -->
 <Window x:Class="WpfClient.MainWindow"

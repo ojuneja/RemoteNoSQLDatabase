@@ -4,8 +4,7 @@
 //  Language:     C#, VS 2003                                              //
 //  Platform:     Dell Dimension 8100, Windows 2000 Pro, SP2               //
 //  Application:  Demonstration for CSE681 - Software Modeling & Analysis  //
-//  Author:       Jim Fawcett, CST 2-187, Syracuse University              //
-//                (315) 443-3948, jfawcett@twcny.rr.com                    //
+//  Author:      Ojas Juneja, Syracuse University                    //
 /////////////////////////////////////////////////////////////////////////////
 /*
  *   Module Operations

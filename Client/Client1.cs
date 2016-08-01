@@ -1,7 +1,6 @@
 ﻿/////////////////////////////////////////////////////////////////////////
 // Client1.cs - CommService client sends and receives messages         //
 // ver 2.2                                                             //
-// Source: Jim Fawcett, CSE681 - Software Modeling and Analysis, Project #4   
 // Author:   Ojas Juneja, Syracuse University                            // 
 /////////////////////////////////////////////////////////////////////////
 /*

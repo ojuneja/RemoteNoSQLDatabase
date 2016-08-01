@@ -1,7 +1,6 @@
 ﻿/////////////////////////////////////////////////////////////////////////
 // Sender.cs - CommService Sender connects and sends messages          //
 // ver 2.2                                                             //
-// Jim Fawcett, CSE681 - Software Modeling and Analysis, Project #4 
 // Author: Ojas Juneja, Syracuse University
 /////////////////////////////////////////////////////////////////////////
 /*

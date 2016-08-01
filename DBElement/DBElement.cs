@@ -4,8 +4,6 @@
 // Application: Project#2                                    //
 // Language:    C#, ver 6.0, Visual Studio 2015              //
 // Platform:    Dell XPS2700, Core-i7, Windows 10            //
-// Author:      Jim Fawcett, CST 4-187, Syracuse University  //
-//              (315) 443-3948, jfawcett@twcny.rr.com 
 //Updated By:   Ojas Juneja, Syracuse University             //
 ///////////////////////////////////////////////////////////////
 /*

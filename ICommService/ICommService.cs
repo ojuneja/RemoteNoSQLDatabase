@@ -1,7 +1,7 @@
 ﻿/////////////////////////////////////////////////////////////////////////
 // ICommService.cs - Contract for WCF message-passing service          //
 // ver 1.1                                                             //
-// Jim Fawcett, CSE681 - Software Modeling and Analysis, Project #4    //
+// Ojas Juneja, Syracuse University  
 /////////////////////////////////////////////////////////////////////////
 /*
  * Additions to C# Console Wizard generated code:

@@ -1,7 +1,7 @@
 ﻿/////////////////////////////////////////////////////////////////////////
 // CommService.cs - Implementation of WCF message-passing service      //
 // ver 1.1                                                             //
-// Jim Fawcett, CSE681 - Software Modeling and Analysis, Project #4    //
+// Ojas Juneja, Syracuse University     //
 /////////////////////////////////////////////////////////////////////////
 /*
  * Additions to the C# Console Wizard code:

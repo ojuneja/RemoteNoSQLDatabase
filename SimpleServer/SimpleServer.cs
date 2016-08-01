@@ -2,7 +2,7 @@
 // SimpleServer.cs - Very simple server - good starting point for      //
 // ver 1.0           Project #4 database server.                       //
 //                                                                     //
-// Jim Fawcett, CSE681 - Software Modeling and Analysis, Project #4    //
+// Ojas Juneja, Syracuse University    //
 /////////////////////////////////////////////////////////////////////////
 /*
  * Purpose:

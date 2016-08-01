@@ -1,7 +1,6 @@
 ﻿/////////////////////////////////////////////////////////////////////////
 // Server.cs - CommService server                                      //
-// ver 2.4                                                             //
-// Jim Fawcett, CSE681 - Software Modeling and Analysis, Project #4  
+// ver 2.4                                                             //  
 // Author: Ojas Juneja, Syracuse University
 /////////////////////////////////////////////////////////////////////////
 /*
