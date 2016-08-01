@@ -5,7 +5,8 @@
 #####Requirements can be found [HERE](https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/Requirements.pdf)
 
 ####Running The Project
-Project can be instaniated by running [compile.bat](https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/compile.bat) first and then [run.bat] (https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/run.bat)
+Project can be instaniated by running [compile.bat](https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/compile.bat) first and then [run.bat] (https://github.com/ojuneja/RemoteNoSQLDatabase/blob/master/run.bat) in administrator mode
+
 
 #####INPUT
 1. Format is: <Path> n1 n2 Y
